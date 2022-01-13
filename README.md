@@ -16,6 +16,8 @@ Client
 python cilent.py
 ```
 
+And, You can check the number of new coronavirus cases by enter the fullname of province like กรุงเทพมหานคร, พระนครศรีอยุธยา, นครศรีธรรมราช
+
 ## Contributor
 
 1. 6210406734 Supavet Amornruksakul
