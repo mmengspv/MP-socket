@@ -1,3 +1,6 @@
+# Supavet Amornruksakul 6210406734
+# Praew Paksanont 6210406645
+
 import json
 import socket
 from datetime import datetime
@@ -29,13 +32,13 @@ def main():
                         response['Data']['total_case']))
                     print('จำนวนผู้เสียชีวิตสะสม: {} คน'.format(
                         response['Data']['total_death']))
-                    print(response)
+                    # print(response)
                 else:
                     print(response['Status_line'])
                 break
             else:
                 print("กรุณากรอกชื่อจังหวัด")
-        client.close()
+        # client.close()
 
 
 if __name__ == '__main__':
